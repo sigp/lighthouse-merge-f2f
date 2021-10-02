@@ -3,6 +3,9 @@
 This repository contains various resources used by the Lighthouse team for the
 Merge F2F in October 2021.
 
+See the ["Merge F2F" PR](https://github.com/sigp/lighthouse/pull/2620) for more
+information about Lighthouse and the Merge F2F.
+
 ## M2
 
 ### Tracker
