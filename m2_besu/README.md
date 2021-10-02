@@ -5,7 +5,7 @@ References:
 
 ## How To Run
 
-This testnet requires 3 terminal processes, one for Nethermind one for a beacon node
+This testnet requires 3 terminal processes, one for Besu one for a beacon node
 and one for a validator client. See the per-terminal commands below.
 
 ### Terminal 1: Besu
