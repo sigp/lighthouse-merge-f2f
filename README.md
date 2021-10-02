@@ -29,3 +29,19 @@ for Lighthouse and that client team.
 
 For example, to run "M2 Lighthouse/Geth", go to `m2_geth` and follow the readme
 there.
+
+## M3
+
+To run an M3 testnet we need the EL client to provide a block that has a total
+difficulty `< TTD`, and then a child of that block that has a total difficulty
+`>= TTD`. As of 2021/10/02, none of the EL teams have this ready. We are
+therefore unable to proceed.
+
+Once they're ready, I think we can just `cp m2_lighthouse m3_lighthouse` and
+then change the `lcli` fork-epochs in the `./start_beacon_node.sh` script to
+something like:
+
+```
+	--altair-fork-epoch 1 \
+	--merge-fork-epoch 2 \
+```
