@@ -15,6 +15,7 @@ is incomplete!**
 
 ```bash
 git clone --recursive https://github.com/hyperledger/besu
+git checkout merge
 cd besu
 ./gradlew build
 ./gradlew integrationTest LTS
