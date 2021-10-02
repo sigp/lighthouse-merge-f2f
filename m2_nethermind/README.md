@@ -20,6 +20,8 @@ git checkout themerge
 cd nethermind/src/Nethermind
 dotnet build Nethermind.sln -c Release
 cd Nethermind.Runner
+# Here you need to change the `gasLimit` to 0x1C9C380.
+vim bin/Release/net5.0/chainspec/themerge_devnet.json
 dotnet run -c Release --no-build -- --config themerge_devnet
 ```
 
