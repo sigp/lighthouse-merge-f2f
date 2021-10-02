@@ -5,6 +5,16 @@ Merge F2F in October 2021.
 
 ## M2
 
+### Tracker
+
+- Geth: ✅
+- Nethermind: [Blocked on Nethermind](https://github.com/NethermindEth/nethermind/pull/3453#issuecomment-932693651)
+- Besu: They are ready, we haven't made a testnet yet.
+- Erigon: They have not yet met M1.
+- EthereumJS: They have not yet met M1.
+
+### Reproducing the M2 testnets
+
 The directories starting with `m2_` are reproducible examples of Lighthouse
 meeting the M2 milestones.
 
