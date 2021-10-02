@@ -3,6 +3,9 @@ source ./vars.env
 rm -rf $TESTNET_DIR
 rm -rf $BEACON_DIR
 
+EE_PORT=${1:-8545}
+EE_ENDPOINT="http://localhost:${EE_PORT}"
+
 echo "Retrieving genesis block from geth..."
 
 GENESIS_BLOCK_HASH=$(curl \
