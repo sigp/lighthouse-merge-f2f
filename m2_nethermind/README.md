@@ -6,10 +6,6 @@
 References:
 	- Nethermind PR: https://github.com/NethermindEth/nethermind/pull/3453
 
-Follow these steps:
-
-notes to nethermind: add the `git checkout`
-
 ## How To Run
 
 This testnet requires 3 terminal processes, one for Nethermind one for a beacon node

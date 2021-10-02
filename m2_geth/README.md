@@ -8,8 +8,6 @@ References:
 	- Geth instructions: https://notes.ethereum.org/@9AeMAlpyQYaAAyuj47BzRw/rkwW3ceVY
 	- Geth PR: https://github.com/ethereum/go-ethereum/pull/23607
 
-Follow these steps:
-
 ## How To Run
 
 This testnet requires 3 terminal processes, one for geth one for a beacon node
