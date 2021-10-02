@@ -12,7 +12,8 @@ information about Lighthouse and the Merge F2F.
 
 - Geth: ✅
 - Nethermind: [Blocked on Nethermind](https://github.com/NethermindEth/nethermind/pull/3453#issuecomment-932693651)
-- Besu: They are ready, we haven't made a testnet yet.
+- Besu: Has met M1, but I can't find instructions on how to configure it for
+	merge nets.
 - Erigon: They have not yet met M1.
 - EthereumJS: They have not yet met M1.
 
