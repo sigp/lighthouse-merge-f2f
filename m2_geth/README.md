@@ -10,7 +10,12 @@ References:
 
 Follow these steps:
 
-## Terminal 1: Geth
+## How To Run
+
+This testnet requires 3 terminal processes, one for geth one for a beacon node
+and one for a validator client. See the per-terminal commands below.
+
+### Terminal 1: Geth
 
 ```bash
 git clone git@github.com:MariusVanDerWijden/go-ethereum.git
@@ -22,7 +27,7 @@ cd ..
 ./go-ethereum/build/bin/geth --catalyst --http --ws -http.api "engine,eth" --datadir "./datadir"
 ```
 
-## Terminal 2: Lighthouse Beacon Node
+### Terminal 2: Lighthouse Beacon Node
 
 ```bash
 cd m2_lighthouse
@@ -32,7 +37,7 @@ cd m2_lighthouse
 *Note: it's important to start the beacon node before the validator client
 since that script also generates the testnet configuration.*
 
-## Terminal 2: Lighthouse Validator Client
+### Terminal 3: Lighthouse Validator Client
 
 ```bash
 cd m2_lighthouse
