@@ -15,7 +15,7 @@ notes to nethermind: add the `git checkout`
 This testnet requires 3 terminal processes, one for Nethermind one for a beacon node
 and one for a validator client. See the per-terminal commands below.
 
-### Terminal 1: Geth
+### Terminal 1: Nethermind
 
 *Arch Linux users will need `pacman -S dotnet-sdk aspnet-runtime`.*
 
