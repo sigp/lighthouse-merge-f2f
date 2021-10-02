@@ -30,6 +30,18 @@ for Lighthouse and that client team.
 For example, to run "M2 Lighthouse/Geth", go to `m2_geth` and follow the readme
 there.
 
+#### Note
+
+When running Lighthouse without enough peers you'll see this log:
+
+```
+Oct 02 16:49:58.013 WARN Could not publish message               error: InsufficientPeers, service: libp2p
+```
+
+You can just ignore it, the chain will still build out fine. Bonus points to
+anyone who makes a PR that allows pushing that log to down to debug with a CLI
+flag.
+
 ## M3
 
 To run an M3 testnet we need the EL client to provide a block that has a total
