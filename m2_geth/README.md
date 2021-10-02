@@ -1,5 +1,9 @@
 ## Milestone #2: Geth and Lighthouse
 
+**Note: this testnet was run using
+https://github.com/sigp/lighthouse/pull/2667.** Once that PR is merged,
+`merge-f2f` will be the branch to use for these tests.
+
 References:
 	- Geth instructions: https://notes.ethereum.org/@9AeMAlpyQYaAAyuj47BzRw/rkwW3ceVY
 	- Geth PR: https://github.com/ethereum/go-ethereum/pull/23607
