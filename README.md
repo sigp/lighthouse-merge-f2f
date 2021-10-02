@@ -11,7 +11,7 @@ information about Lighthouse and the Merge F2F.
 ### Tracker
 
 - Geth: ✅
-- Nethermind: [Blocked on Nethermind](https://github.com/NethermindEth/nethermind/pull/3453#issuecomment-932693651)
+- Nethermind: ✅
 - Besu: Has met M1, but I can't find instructions on how to configure it for
 	merge nets.
 - Erigon: They have not yet met M1.

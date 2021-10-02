@@ -1,7 +1,5 @@
 ## Milestone #2: Lighthouse and Nethermind
 
-**WARNING: this testnet does not work!** We are currently blocked on: https://github.com/NethermindEth/nethermind/pull/3453#issuecomment-932693651
-
 References:
 	- Nethermind PR: https://github.com/NethermindEth/nethermind/pull/3453
 
