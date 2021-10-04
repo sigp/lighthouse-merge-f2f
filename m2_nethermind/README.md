@@ -1,7 +1,8 @@
 ## Milestone #2: Lighthouse and Nethermind
 
 References:
-	- Nethermind PR: https://github.com/NethermindEth/nethermind/pull/3453
+
+- Nethermind PR: https://github.com/NethermindEth/nethermind/pull/3453
 
 ## How To Run
 

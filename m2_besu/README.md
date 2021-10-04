@@ -4,7 +4,8 @@
 https://github.com/hyperledger/besu/issues/2830#issuecomment-933050977**
 
 References:
-	- Besu merge branch: https://github.com/hyperledger/besu/tree/merge
+
+- Besu merge branch: https://github.com/hyperledger/besu/tree/merge
 
 ## How To Run
 
