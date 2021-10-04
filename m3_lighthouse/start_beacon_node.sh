@@ -29,7 +29,7 @@ $LCLI \
 	new-testnet \
 	--genesis-time $(date +%s) \
 	--altair-fork-epoch 0 \
-	--merge-fork-epoch 0 \
+	--merge-fork-epoch 1 \
 	--interop-genesis-state \
 	--validator-count $VALIDATOR_COUNT \
 	--min-genesis-active-validator-count $VALIDATOR_COUNT \
