@@ -1,7 +1,6 @@
 ## Milestone #2: EthereumJS and Lighthouse
 
-**WARNING: this does not work, I haven't been able to get EthereumJS running
-yet.**
+**WARNING: this does not work, EthereumJS is returning an odd response to `eth_getBlockByNumber`.**
 
 References:
 - A potential command to run ethereumjs: https://github.com/ethereumjs/ethereumjs-monorepo/pull/1512#issuecomment-933039405
@@ -22,7 +21,6 @@ git checkout merge-contd-2
 git submodule init && git submodule update
 npm i
 cd packages/client
-# This fails with `ReferenceError: TextDecoder is not defined`
 npm run client:start -- --gethGenesis=../../../genesis.json --rpc --rpcEngine --loglevel=debug
 ```
 
