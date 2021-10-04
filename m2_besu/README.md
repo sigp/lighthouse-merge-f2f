@@ -1,5 +1,8 @@
 ## Milestone #2: Lighthouse and Besu
 
+**WARNING: we are currently blocked on
+https://github.com/hyperledger/besu/issues/2830#issuecomment-933050977**
+
 References:
 	- Besu merge branch: https://github.com/hyperledger/besu/tree/merge
 
@@ -10,21 +13,15 @@ and one for a validator client. See the per-terminal commands below.
 
 ### Terminal 1: Besu
 
-**Warning: I still don't have instructions on how to configure Besu, so this guide
-is incomplete!**
-
 ```bash
 git clone --recursive https://github.com/hyperledger/besu
 git checkout merge
 cd besu
-./gradlew build
-./gradlew integrationTest LTS
+./gradlew --parallel installDist
+besu/build/install/besu/bin/besu --config-file=besu-config.toml
 ```
 
 ### Terminal 2: Lighthouse Beacon Node
-
-**Warning: We probably want to change `8550` to whatever port Besu uses for the
-JSON API.**
 
 ```bash
 cd m2_lighthouse

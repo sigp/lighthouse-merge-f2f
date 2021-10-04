@@ -1,0 +1,10 @@
+genesis-file="genesis.json"
+data-path="besu-data"
+network-id=7882
+rpc-http-enabled=true
+rpc-http-api=["ADMIN","ETH","NET","DEBUG","TXPOOL","EXECUTION"]
+host-allowlist=["*"]
+rpc-http-cors-origins=["*"]
+rpc-http-port=8550
+Xmerge-support=true
+logging="DEBUG"
