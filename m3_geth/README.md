@@ -1,7 +1,8 @@
-## Milestone #2: Geth and Lighthouse
+## Milestone #3: Geth and Lighthouse
 
 References:
 	- Geth instructions: https://notes.ethereum.org/@9AeMAlpyQYaAAyuj47BzRw/rkwW3ceVY
+	- Geth M3 instructions: https://notes.ethereum.org/_UH57VUPRrC-re3ubtmo2w
 	- Geth PR: https://github.com/ethereum/go-ethereum/pull/23607
 
 ## How To Run
@@ -22,10 +23,15 @@ cd ..
 ./go-ethereum/build/bin/geth --catalyst --http -http.api "engine,eth" --datadir "./datadir" --allow-insecure-unlock --unlock "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b" --password "" --nodiscover console
 ```
 
+After being dumped into the console you must run
+```
+miner.start()
+```
+
 ### Terminal 2: Lighthouse Beacon Node
 
 ```bash
-cd m2_lighthouse
+cd m3_lighthouse
 ./start_beacon_node.sh
 ```
 
@@ -35,6 +41,6 @@ since that script also generates the testnet configuration.*
 ### Terminal 3: Lighthouse Validator Client
 
 ```bash
-cd m2_lighthouse
+cd m3_lighthouse
 ./start_validator_client.sh
 ```
