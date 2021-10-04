@@ -1,6 +1,6 @@
-## M2 Lighthouse
+## M3 Lighthouse
 
-This contains the scripts required to run Lighthouse in the M2 milestone.
+This contains the scripts required to run Lighthouse in the M3 milestone.
 
 It is assumed that users have installed `lighthouse` and `lcli` binaries from
 [`merge-f2f`](https://github.com/sigp/lighthouse/pull/2620) branch of
