@@ -22,11 +22,15 @@ Edit the vars.env to set:
 
  * `VALIDATOR_COUNT` # the number of validators in the testnet
  * `NODE_COUNT` # the number of beacon nodes (or separate validator processes)
+ * `GENESIS_BLOCK_HASH` # (optional) if empty, script will fetch from execution engine
+ * `GENESIS_TIME` # (optional) if empty, script will round down to nearest hour
 
-Generate the validator keys:
+Generate the validator keys and beacon state:
+
+IMPORTANT: As the beacon state includes the genesis time, if `$GENESIS_TIME` is not set in `vars.env`, it is important that each node runs `./gen_beacon_state.sh` in the same hour and has their clock set correctly.
 
 ```
-$ ./gen_validator_keys.sh
+$ ./gen_validator_keys.sh && ./gen_beacon_state.sh
 ```
 
 Terminal 1 - start the beacon node
