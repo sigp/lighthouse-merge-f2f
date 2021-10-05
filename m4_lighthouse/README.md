@@ -22,6 +22,7 @@ Edit the vars.env to set:
 
  * `VALIDATOR_COUNT` # the number of validators in the testnet
  * `NODE_COUNT` # the number of beacon nodes (or separate validator processes)
+ * `TTD_OVERRIDE` # the terminal total difficulty (in hex)
  * `GENESIS_BLOCK_HASH` # (optional) if empty, script will fetch from execution engine
  * `GENESIS_TIME` # (optional) if empty, script will round down to nearest hour
 

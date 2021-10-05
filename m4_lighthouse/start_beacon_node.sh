@@ -17,4 +17,6 @@ $LIGHTHOUSE \
 	--metrics \
 	--merge \
 	--execution-endpoints $EE_ENDPOINT \
-	--terminal-total-difficulty-override 16
+	--terminal-total-difficulty-override $TTD_OVERRIDE \
+
+
