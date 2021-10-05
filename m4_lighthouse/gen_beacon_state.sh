@@ -29,7 +29,10 @@ echo "Genesis block hash is $GENESIS_BLOCK_HASH"
 echo "Generating $SPEC specification and genesis state..."
 
 # round genesis time down to nearest minute..
+if [ -z ${GENESIS_TIME} ]; then
 GENESIS_TIME=$(echo "$(date +%s) - $(echo "$(date +%s) % 3600" | bc)" | bc)
+fi
+
 echo "Using Genesis time: $GENESIS_TIME"
 
 $LCLI \
