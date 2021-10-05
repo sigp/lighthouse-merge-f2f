@@ -1,9 +1,9 @@
 ## Milestone #3: Geth and Lighthouse
 
 References:
-	- Geth instructions: https://notes.ethereum.org/@9AeMAlpyQYaAAyuj47BzRw/rkwW3ceVY
-	- Geth M3 instructions: https://notes.ethereum.org/_UH57VUPRrC-re3ubtmo2w
-	- Geth PR: https://github.com/ethereum/go-ethereum/pull/23607
+ * Geth instructions: https://notes.ethereum.org/@9AeMAlpyQYaAAyuj47BzRw/rkwW3ceVY
+ * Geth M3 instructions: https://notes.ethereum.org/_UH57VUPRrC-re3ubtmo2w
+ * Geth PR: https://github.com/ethereum/go-ethereum/pull/23607
 
 ## How To Run
 
